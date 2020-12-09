@@ -10,6 +10,8 @@ find_package(Qt5 COMPONENTS Quick Widgets REQUIRED)
 add_executable(over 
     src/main.cpp
     src/myvec.cpp
+    src/opread.cpp
+    src/oppush.cpp
     )
 target_include_directories(over PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(over
